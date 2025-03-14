@@ -1,0 +1,30 @@
+/* .carve{
+    background-image: url(/pexels-pixabay-531880.jpg);
+    height: 300px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    background-position: center;
+
+    
+}
+.carve1{
+    background-image: url(pexels-andre-furtado-43594-370717.jpg);
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+} */
+ *{
+    background-image: url(/pexels-andre-furtado-43594-370717.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+ }
+ .nullcard{
+    height: 300px;
+    width: 250px;
+    background-color: aquamarine;
+ }

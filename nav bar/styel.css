@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: rgb(238, 189, 129);
+    color: rgb(223, 52, 52);
+    list-style: none;
+    text-align: end;
+    
+
+
+}
+.navbar ul{
+   
+    display: inline-block ;
+    margin : 0  10px ;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 10px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+}
+.navbar ul li a:hover{
+    color: rgb(223, 52, 52);
+    
+}
+

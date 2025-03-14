@@ -1,0 +1,76 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    justify-content: space-between;
+   
+
+}
+.fulldiv{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+gap: 10px;
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(127, 255, 212,0.2);
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+.fulldiv2{
+    display: flex;
+    font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+
+    
+}
+.div2 h2{
+    text-align: center;
+}
+.div2 img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aquamarine;
+    
+}
+.divcard img{
+height: 150px;
+width: 150px;
+margin-top: 30px;
+
+
+}
+.divcard button{
+    background-color: rgb(250, 22, 22);
+    color: aliceblue;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 30px;
+    
+}
+*{
+    background-image: url(Blue\ Minimalist\ Simple\ Technology\ Logo\ \ \(2\).png);
+    background-size: 200px 200px;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-position: top right;
+    overflow: hidden;
+}
